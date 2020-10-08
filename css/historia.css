@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+ /* Header */
+
+
+header {
+    width: 100%;
+    height: 200px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/fondo1.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/fondo1.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    }
+
+nav > a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+ }
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Historia*/
+
+main .historia{
+    padding: 30px 0 60px 0;
+}
+
+
+.contenedor-historia{
+    display: flex;
+    justify-content: left;
+}
+
+
+ .textos-header h1{
+    color: #bc4e9c;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    width: 95%;
+    font-size: 22px;
+
+}
+
+.video-oficial{
+    text-align: right;
+    border: 100%;
+    position: absolute; right: 50; top: auto;
+    margin-right: 30px;
+}
+
+
+ /* Footer */
+
+ 
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    
+    text-align: center;
+}
+
+.content-foo img{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+.content-foo p{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
